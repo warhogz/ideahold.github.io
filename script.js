@@ -1,7 +1,7 @@
 const dog = document.getElementById("dog");
 const brevno = document.getElementById("brevno");
 
-document.addEventListener("keydown", function(event){
+document.addEventListener("touchstart", function(event){
     jump()
 });
 
