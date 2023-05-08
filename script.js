@@ -14,7 +14,7 @@ function jump(){
     }, 300)
 }
 
-var score = 0;
+
 let isAlive = setInterval (function(){
     let dogTop = parseInt(window.getComputedStyle(dog).getPropertyValue("top")) 
     let brevnoLeft = parseInt(window.getComputedStyle(brevno).getPropertyValue("left"))
